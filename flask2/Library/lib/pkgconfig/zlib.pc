@@ -1,0 +1,13 @@
+prefix=D:/Flask_Task/flask2/Library
+exec_prefix=D:/Flask_Task/flask2/Library
+libdir=D:/Flask_Task/flask2/Library/lib
+sharedlibdir=D:/Flask_Task/flask2/Library/lib
+includedir=D:/Flask_Task/flask2/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
